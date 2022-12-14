@@ -1,8 +1,8 @@
 node {
 
-    stage('Gitclone') {
-	git branch: 'main', credentialsId: 'da1e8d01-80e2-477f-a0cd-a7d5a8605fd0', url: 'https://github.com/Nawazarifa/jenkinsproject12.git'
-	    
+    stage('Gitclone'){
+    
+       	git branch: 'main', credentialsId: '6c0499f4-7c6b-4de2-b068-68dd6cf1c3f6', url: 'https://github.com/Nawazarifa/Arifa.git'
 	}
 	stage('java version') {
 	
