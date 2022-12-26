@@ -2,7 +2,7 @@ node {
 
     stage('Gitclone'){
     
-      git branch: 'main', credentialsId: '6c0499f4-7c6b-4de2-b068-68dd6cf1c3f6', url: 'https://github.com/Nawazarifa/jenkinsproject12.git'
+      git branch: 'main', credentialsId: '7269ef06-0c65-42d1-9d45-2f2147e32ea5', url: 'https://github.com/Nawazarifa/jenkinsproject12.git'
 	}
 	stage('java version') {
 	
